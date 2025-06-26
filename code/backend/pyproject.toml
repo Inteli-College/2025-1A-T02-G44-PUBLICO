@@ -1,0 +1,10 @@
+[project]
+name = "reverse-mortgage-calculator"
+version = "0.1.0"
+description = "Reverse mortgage calculator"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.52.0",
+    "fastapi[all]>=0.115.12",
+]
