@@ -1,28 +1,23 @@
-# Frontend - Reverse Mortgage System
+# Frontend Setup
 
-Interactive web interface for property registry analysis and reverse mortgage calculations.
+You'll need Node.js and npm installed first - you can [set these up using nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-## Prerequisites
+Here's how to get started:
 
-**IMPORTANT**: Before running the frontend, you must first start the backend server by following the instructions in the `../backend/` folder.
+```sh
+# Step 1:
+npm i
 
-## How to Use
-
-### Method 1: Open Directly in Browser
-```bash
-# Make sure you are in the frontend folder
-cd frontend
-
-# Open the index.html file in any web browser
-open index.html  # macOS
-start index.html # Windows
-xdg-open index.html # Linux
+# Step 2: Launch the development server for live updates and preview.
+npm run dev
 ```
 
-### Method 2: Local Server (Recommended)
-```bash
-# In the frontend folder, run:
-python -m http.server 3000
+## Tech Stack
 
-# Access: http://localhost:3000
-```
+This application uses:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
